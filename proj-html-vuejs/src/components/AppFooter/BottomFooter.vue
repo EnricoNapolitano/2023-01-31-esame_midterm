@@ -1,3 +1,22 @@
-<script></script>
+<script>
+import { data } from '../../assets/data';
+export default {
+    name: 'BottomHeader',
+    data() { return { data } }
+}
+</script>
 
-<template></template>
+<template>
+    <footer class="d-flex jc-between p-30">
+        <h5>&#169; Copyright 2012-2023 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by Myself</h5>
+        <ul class="d-flex">
+            <li v-for="social in data.socials"><i :class="social"></i></li>
+        </ul>
+    </footer>
+</template>
+
+<style>
+li {
+    padding-right: 20px
+}
+</style>
