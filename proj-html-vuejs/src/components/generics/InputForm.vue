@@ -11,3 +11,16 @@ export default {
         <button> {{ text || 'SEND' }}</button>
     </form>
 </template>
+
+<style scoped>
+input {
+    width: 350px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+button {
+    height: 40px;
+    padding: 0 20px;
+}
+</style>
