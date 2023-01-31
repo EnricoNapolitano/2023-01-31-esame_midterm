@@ -7,15 +7,22 @@ export default {
     data() { return { data } },
     components: { LogoCompany, NavMenu },
     computed: {
-        //removing 'home' from nav array
-        footerMenu() { return this.data.nav.splice(1) }
+
+        //adapting nav data to footer menu
+        footerMenu() {
+            //removing first element
+            const menu = this.data.nav.splice(1);
+            //changing last element with another string
+            menu[menu.length - 1] = 'Orders';
+            return menu;
+        }
     }
 }
 </script>
 
 <template>
-    <footer class="ph-30">
-        <logo-company></logo-company>
+    <footer class="p-30">
+        <logo-company class="pb-30"></logo-company>
         <nav-menu :menu="footerMenu"></nav-menu>
     </footer>
 </template>
