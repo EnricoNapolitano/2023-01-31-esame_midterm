@@ -1,6 +1,6 @@
 const data = {
-    //top header
-    header_nav: ['HOME', 'SHOP', 'ABOUT', 'GALLERY', 'LOCATIONS', 'JOURNAL', 'CONTACT', 'MY ACCOUNT'],
+    //nav for top header & top footer
+    nav: ['Home', 'Shop', 'About', 'Gallery', 'Locations', 'Journal', 'Contact', 'My Account'],
 
     //hero jumbo
     jumbo_label: 'FRESH & TASTY BAKERY EVERY DAY',
