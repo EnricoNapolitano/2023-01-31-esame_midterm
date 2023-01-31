@@ -23,6 +23,7 @@ export default {
 #hero-jumbo {
     height: 750px;
     width: auto;
+    background-image: url('../../assets/img/hero-header-bakery.jpg');
     @include bg-image;
 
     h2 {
