@@ -10,3 +10,13 @@ export default {
         <li v-for="item in menu"><a href="#">{{ item }}</a></li>
     </ul>
 </template>
+
+<style lang="scss" scoped>
+ul {
+    display: flex;
+}
+
+li {
+    padding: 5px;
+}
+</style>
