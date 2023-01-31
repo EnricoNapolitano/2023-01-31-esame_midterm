@@ -6,10 +6,8 @@ export default {
 }
 </script>
 <template>
-    <template>
-        <form>
-            <input type="text" v-model.trim="value" :placeholder="placeholder || 'Type here...'">
-            <button> {{ text || 'SEND' }}</button>
-        </form>
-    </template>
+    <form>
+        <input type="text" v-model.trim="value" :placeholder="placeholder || 'Type here...'">
+        <button> {{ text || 'SEND' }}</button>
+    </form>
 </template>
