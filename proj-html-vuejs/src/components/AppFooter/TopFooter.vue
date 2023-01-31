@@ -10,8 +10,10 @@ export default {
 
         //adapting nav data to footer menu
         footerMenu() {
+            //cloning the array
+            const footerNav = [...this.data.nav]
             //removing first element
-            const menu = this.data.nav.splice(1);
+            const menu = footerNav.splice(1);
             //changing last element with another string
             menu[menu.length - 1] = 'Orders';
             return menu;
