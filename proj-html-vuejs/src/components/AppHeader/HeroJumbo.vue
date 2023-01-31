@@ -9,9 +9,11 @@ export default {
 </script>
 
 <template>
-    <section id="hero-jumbo">
-        <action-call :label="data.jumbo_label" :title="data.jumbo_title" :paragraph="data.jumbo_paragraph"
-            :botton_label="data.jumbo_button"></action-call>
+    <section id="hero-jumbo" class="d-flex ai-center">
+        <div class="container">
+            <action-call :label="data.jumbo_label" :title="data.jumbo_title" :paragraph="data.jumbo_paragraph"
+                :botton_label="data.jumbo_button"></action-call>
+        </div>
     </section>
 </template>
 
@@ -21,6 +23,10 @@ export default {
 #hero-jumbo {
     height: 750px;
     width: auto;
-    @include bg-image
+    @include bg-image;
+
+    h2 {
+        font-size: 55px;
+    }
 }
 </style>
