@@ -10,7 +10,7 @@ export default {
     <footer class="d-flex jc-between p-30">
         <h5>&#169; Copyright 2012-2023 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by Myself</h5>
         <ul class="d-flex">
-            <li v-for="social in data.socials"><i :class="social"></i></li>
+            <li v-for="social in data.socials" :key="data.socials"><a href="#"><i :class="social"></i></a></li>
         </ul>
     </footer>
 </template>

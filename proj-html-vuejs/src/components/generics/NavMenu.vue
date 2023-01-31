@@ -7,7 +7,7 @@ export default {
 
 <template>
     <ul>
-        <li v-for="item in menu"><a href="#">{{ item }}</a></li>
+        <li v-for="item in menu" :key="item"><a href="#">{{ item }}</a></li>
     </ul>
 </template>
 
