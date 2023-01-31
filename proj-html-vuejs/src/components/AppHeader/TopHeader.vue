@@ -9,7 +9,7 @@ export default {
 }
 </script>
 <template>
-    <header>
+    <header class="d-flex jc-between ai-center ph-30">
         <logo-company></logo-company>
         <nav-menu :menu="data.header_nav"></nav-menu>
     </header>

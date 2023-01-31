@@ -26,3 +26,20 @@ a {
 li {
     list-style: none;
 }
+
+// UTILS
+.d-flex {
+    display: flex;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.ph-30 {
+    padding: 0 30px;
+}
