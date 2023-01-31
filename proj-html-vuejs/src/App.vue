@@ -18,3 +18,7 @@ export default {
     <!-- 2 components: top and bottom footer -->
   </app-footer>
 </template>
+
+<style lang="scss">
+@use './assets/scss/style.scss';
+</style>
