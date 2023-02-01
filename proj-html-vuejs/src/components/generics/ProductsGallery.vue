@@ -5,13 +5,13 @@ export default {
 }
 </script>
 <template>
-    <figure>
-        <img v-for="item in gallery" :src="item.src" :alt="item.title">
-    </figure>
+    <ul>
+        <li v-for="item in gallery"><img :src="item.src" :alt="item.title"></li>
+    </ul>
 </template>
 
 <style scoped>
-figure {
+ul {
     display: flex;
     justify-content: flex-end;
 }

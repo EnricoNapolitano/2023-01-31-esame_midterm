@@ -18,8 +18,8 @@ export default {
 
 <style lang="scss">
 #products-gallery {
-    figure {
-        width: 300px;
+    ul {
+        width: 800px;
         height: auto;
     }
 
