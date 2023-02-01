@@ -6,6 +6,6 @@ export default {
 </script>
 <template>
     <figure>
-        <img v-for="pic in gallery" :src="pic" alt="product image">
+        <img v-for="pic in gallery" :src="pic.src" alt="product image">
     </figure>
 </template>
