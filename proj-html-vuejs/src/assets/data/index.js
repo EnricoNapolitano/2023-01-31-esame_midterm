@@ -91,6 +91,9 @@ const data = {
     infoC_subtitle: 'BAKED TO ORDER & GIFT WRAPPED',
     infoC_paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.',
 
+    //social pictures
+    social_pictures: ['/src/assets/img/social-3.jpg', '/src/assets/img/social-4.jpg', '/src/assets/img/social-5.jpg', '/src/assets/img/social-6.jpg'],
+
     //delivery section
     delivery_label: 'TRY OUR SEASONAL PRODUCTS',
     delivery_title: 'Order for pick-up or delivery to your home',
