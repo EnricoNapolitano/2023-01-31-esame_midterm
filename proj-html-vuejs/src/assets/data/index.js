@@ -85,6 +85,12 @@ const data = {
     infoB_subtitle: 'SWEET AND DELICOUS',
     infoB_paragraph: 'Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.',
 
+    // inco C section
+    infoC_title: 'Delivered to your home',
+    infoC_num: '03',
+    infoC_subtitle: 'BAKED TO ORDER & GIFT WRAPPED',
+    infoC_paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.',
+
     //delivery section
     delivery_label: 'TRY OUR SEASONAL PRODUCTS',
     delivery_title: 'Order for pick-up or delivery to your home',
