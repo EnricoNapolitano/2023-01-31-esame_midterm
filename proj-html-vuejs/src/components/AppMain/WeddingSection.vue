@@ -8,5 +8,31 @@ export default {
 }
 </script>
 <template>
-    <action-call :label="data.event_label" :title="data.event_title"></action-call>
+    <section id="wedding-section" class="container mv-section">
+        <div>
+            <action-call :label="data.event_label" :title="data.event_title"></action-call>
+        </div>
+        <ul class="d-flex jc-between">
+            <li v-for="img in data.event_img"><img :src="img.src" :alt="img.event"></li>
+        </ul>
+    </section>
 </template>
+
+<style lang="scss">
+@use '../../assets/scss/partials/mixins' as*;
+
+#wedding-section {
+    div {
+        text-align: center;
+        @include center-align;
+    }
+
+    figure {
+        max-width: 45%;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+</style>
