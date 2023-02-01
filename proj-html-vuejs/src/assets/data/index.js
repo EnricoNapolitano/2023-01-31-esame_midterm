@@ -55,6 +55,18 @@ const data = {
     //wedding section
     event_label: 'CORPORATE & WEDDINGS',
     event_title: 'Baking Special Moments',
+    event_img: [
+        {
+            event: 'wedding',
+            src: '/src/assets/img/wedding-bg.jpg',
+            hover: '/src/assets/img/wedding-hover-bg.jpg'
+        },
+        {
+            event: 'corporate',
+            src: '/src/assets/img/corporate-bg.jpg',
+            hover: '/src/assets/img/corporate-hover-bg.jpg'
+        }
+    ],
 
     //delivery section
     delivery_label: 'TRY OUR SEASONAL PRODUCTS',
