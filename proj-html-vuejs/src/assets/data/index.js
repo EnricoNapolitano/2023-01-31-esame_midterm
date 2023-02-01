@@ -68,6 +68,11 @@ const data = {
         },
     ],
 
+    //Shopping Call section
+    shopping_title: 'Find a freshly baked product perfect for you',
+    shopping_paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
+    shopping_button: 'Shop All Products',
+
     //delivery section
     delivery_label: 'TRY OUR SEASONAL PRODUCTS',
     delivery_title: 'Order for pick-up or delivery to your home',
