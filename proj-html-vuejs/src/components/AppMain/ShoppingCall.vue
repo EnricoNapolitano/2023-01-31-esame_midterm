@@ -9,12 +9,12 @@ export default {
 }
 </script>
 <template>
-    <section id="shopping-call" class="container mv-section">
+    <section id="shopping-call" class="container d-flex jc-between ai-center mv-section">
         <div>
             <action-call :title="data.shopping_title" :paragraph="data.shopping_paragraph"
                 :button_label="data.shopping_button"></action-call>
         </div>
-        <products-gallery></products-gallery>
+        <products-gallery :gallery="data.gallery.slice(0, 4)"></products-gallery>
     </section>
 </template>
 
@@ -26,6 +26,15 @@ export default {
 
     div {
         text-align: center;
+    }
+
+    ul {
+        width: 1000px;
+        height: auto;
+    }
+
+    img {
+        max-width: 100%;
     }
 }
 </style>
