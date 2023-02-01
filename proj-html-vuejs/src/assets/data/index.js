@@ -57,15 +57,15 @@ const data = {
     event_title: 'Baking Special Moments',
     event_img: [
         {
+            event: 'corporate',
+            src: '/src/assets/img/corporate-bg.jpg',
+            hover: '/src/assets/img/corporate-hover-bg.jpg'
+        },
+        {
             event: 'wedding',
             src: '/src/assets/img/wedding-bg.jpg',
             hover: '/src/assets/img/wedding-hover-bg.jpg'
         },
-        {
-            event: 'corporate',
-            src: '/src/assets/img/corporate-bg.jpg',
-            hover: '/src/assets/img/corporate-hover-bg.jpg'
-        }
     ],
 
     //delivery section
