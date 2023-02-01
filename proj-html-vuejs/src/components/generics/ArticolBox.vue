@@ -35,7 +35,8 @@ export default {
 }
 
 .paragraph {
-    padding: 200px 100px;
+    padding: 150px 100px;
+    line-height: 25px;
     color: white;
 
     display: flex;
