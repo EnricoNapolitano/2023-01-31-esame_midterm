@@ -27,8 +27,8 @@ export default {
         @include center-align;
     }
 
-    figure {
-        max-width: 45%;
+    li {
+        margin: 0 30px;
     }
 
     img {
