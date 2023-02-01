@@ -11,10 +11,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.row {
-    margin: 0 -20px;
-}
-
 li {
     width: calc(100% / 4);
     padding: 20px;
