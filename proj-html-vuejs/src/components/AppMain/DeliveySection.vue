@@ -1,7 +1,16 @@
-<script></script>
+<script>
+import { data } from '../../assets/data';
+import ActionCall from '../generics/ActionCall.vue';
+export default {
+    name: 'DeliverySection',
+    data() { return { data } },
+    components: { ActionCall }
+}
+</script>
 <template>
-    <section id="delivery">
-
+    <section id="delivery" class="d-flex ai-center">
+        <action-call :label="data.delivery_label" :title="data.delivery_title" :button_label="data.delivery_button"
+            class="ml-450"></action-call>
     </section>
 </template>
 
@@ -9,9 +18,16 @@
 @use '../../assets/scss/partials/mixins' as *;
 
 #delivery {
+    color: white;
+
     height: 530px;
     width: auto;
+
     background-image: url('../../assets/img/call-to-action-bg.jpg');
     @include bg-image;
+
+    h2 {
+        font-size: 2rem;
+    }
 }
 </style>
