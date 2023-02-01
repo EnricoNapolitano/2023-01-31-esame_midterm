@@ -14,7 +14,37 @@ const data = {
     products_button: 'Start shopping',
 
     //products gallery
-    gallery: ['choco-chip-cookies-400x510.jpg', 'strawberry-jam-cookies-400x510.jpg', 'strawberry-donut-400x510.jpg', 'perfect-macarons-400x510.jpg', 'cherry-cake-400x510.jpg', 'cookies-with-ice-cream-400x510.jpg', 'blackberry-stuffed-bread-400x510.jpg'],
+    gallery: [
+        {
+            id: '1',
+            src: '/src/assets/img/choco-chip-cookies-400x510.jpg',
+        },
+        {
+            id: '2',
+            src: '/src/assets/img/strawberry-jam-cookies-400x510.jpg',
+        },
+        {
+            id: '3',
+            src: '/src/assets/img/strawberry-donut-400x510.jpg',
+        },
+        {
+            id: '4',
+            src: '/src/assets/img/perfect-macarons-400x510.jpg',
+        },
+        {
+            id: '5',
+            src: '/src/assets/img/cherry-cake-400x510.jpg',
+        },
+        {
+            id: '6',
+            src: '/src/assets/img/cookies-with-ice-cream-400x510.jpg',
+        },
+        {
+            id: '7',
+            src: '/src/assets/img/blackberry-stuffed-bread-400x510.jpg',
+        },
+    ],
+
 
     //delivery section
     delivery_label: 'TRY OUR SEASONAL PRODUCTS',
