@@ -6,9 +6,10 @@ import ShoppingCall from './AppMain/ShoppingCall.vue';
 import InfoA from './AppMain/InfoA.vue';
 import InfoB from './AppMain/InfoB.vue';
 import InfoC from './AppMain/InfoC.vue';
+import ContactBakery from './AppMain/ContactBakery.vue';
 export default {
     name: 'AppMain',
-    components: { ProductsSection, WeddingSection, ShoppingCall, InfoA, InfoB, InfoC, DeliverySection, },
+    components: { ProductsSection, WeddingSection, ShoppingCall, InfoA, InfoB, InfoC, ContactBakery, DeliverySection, },
 }
 </script>
 <template>
@@ -18,5 +19,6 @@ export default {
     <info-a></info-a>
     <info-b></info-b>
     <info-c></info-c>
+    <contact-bakery></contact-bakery>
     <delivery-section></delivery-section>
 </template>
