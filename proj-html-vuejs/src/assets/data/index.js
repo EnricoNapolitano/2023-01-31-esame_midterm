@@ -79,6 +79,12 @@ const data = {
     infoA_subtitle: 'MANUAL INGREDIENTS SELECTION',
     infoA_paragraph: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatu deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, imilique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.',
 
+    // info B section
+    infoB_title: 'We start baking',
+    infoB_num: '02',
+    infoB_subtitle: 'SWEET AND DELICOUS',
+    infoB_paragraph: 'Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.',
+
     //delivery section
     delivery_label: 'TRY OUR SEASONAL PRODUCTS',
     delivery_title: 'Order for pick-up or delivery to your home',
