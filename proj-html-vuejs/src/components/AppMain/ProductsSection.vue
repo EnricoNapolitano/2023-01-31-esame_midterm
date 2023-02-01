@@ -8,11 +8,14 @@ export default {
     components: { ActionCall, ButtonsGallery },
     methods: {
         changePic(text) {
+            // last element in the gallery
+            const lastElement = this.data.gallery[this.currIndex].src.length - 1
+
             if (text === 'prev') {
                 if (this.currIndex !== 0) this.currIndex--;
-                else this.currIndex = this.data.gallery.src.length - 1;
+                else this.currIndex = lastElement;
             } else {
-                if (this.currIndex !== this.data.gallery.src.length - 1) this.currIndex++;
+                if (this.currIndex !== lastElement) this.currIndex++;
                 else this.currIndex = 0;
             };
         }
@@ -22,8 +25,8 @@ export default {
 <template>
     <action-call :label="data.products_label" :title="data.products_title"
         :button_label="data.products_button"></action-call>
-    <figure v-for="(pic, i) in data.gallery">
+    <figure v-for="(pic, i) in data.gallery" :key="pic.id">
         <img v-if="i === currIndex" :src="pic.src" alt="product">
     </figure>
-    <buttons-gallery @button-clicked="changePic"></buttons-gallery>
+    <buttons-gallery @button-clicked="changePic(text)"></buttons-gallery>
 </template>
