@@ -14,7 +14,7 @@ const data = {
     products_button: 'Start shopping',
 
     //products gallery
-    gallery: ['choco-chip-cookies-200x255.jpg', 'strawberry-jam-cookies-200x255.jpg', 'strawberry-donut-200x255.jpg', 'perfect-macarons-200x255.jpg'],
+    gallery: ['choco-chip-cookies-400x510.jpg', 'strawberry-jam-cookies-400x510.jpg', 'strawberry-donut-400x510.jpg', 'perfect-macarons-400x510.jpg', 'cherry-cake-400x510.jpg', 'cookies-with-ice-cream-400x510.jpg', 'blackberry-stuffed-bread-400x510.jpg'],
 
     //delivery section
     delivery_label: 'TRY OUR SEASONAL PRODUCTS',
