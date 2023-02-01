@@ -9,8 +9,8 @@ export default {
     <div>
         <h4>{{ label }}</h4>
         <h2>{{ title }}</h2>
-        <p>{{ paragraph }}</p>
-        <button>{{ button_label }}</button>
+        <p v-if="paragraph">{{ paragraph }}</p>
+        <button v-if="button_label">{{ button_label }}</button>
     </div>
 </template>
 
