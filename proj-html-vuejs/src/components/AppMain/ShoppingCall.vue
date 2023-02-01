@@ -1,0 +1,31 @@
+<script>
+import { data } from '../../assets/data';
+import ActionCall from '../generics/ActionCall.vue';
+import ProductsGallery from '../generics/ProductsGallery.vue';
+export default {
+    name: 'ShoppingCall',
+    data() { return { data } },
+    components: { ActionCall, ProductsGallery },
+}
+</script>
+<template>
+    <section id="shopping-call" class="container mv-section">
+        <div>
+            <action-call :title="data.shopping_title" :paragraph="data.shopping_paragraph"
+                :button_label="data.shopping_button"></action-call>
+        </div>
+        <products-gallery></products-gallery>
+    </section>
+</template>
+
+<style lang="scss">
+#shopping-call {
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    div {
+        text-align: center;
+    }
+}
+</style>
