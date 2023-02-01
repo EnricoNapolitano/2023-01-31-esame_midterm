@@ -7,8 +7,8 @@ export default {
 
 <template>
     <div>
-        <h4>{{ label }}</h4>
-        <h2>{{ title }}</h2>
+        <h4 v-if="label">{{ label }}</h4>
+        <h2 v-if="title">{{ title }}</h2>
         <p v-if="paragraph">{{ paragraph }}</p>
         <button v-if="button_label">{{ button_label }}</button>
     </div>
