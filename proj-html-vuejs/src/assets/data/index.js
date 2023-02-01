@@ -52,6 +52,9 @@ const data = {
         },
     ],
 
+    //wedding section
+    event_label: 'CORPORATE & WEDDINGS',
+    event_title: 'Baking Special Moments',
 
     //delivery section
     delivery_label: 'TRY OUR SEASONAL PRODUCTS',
