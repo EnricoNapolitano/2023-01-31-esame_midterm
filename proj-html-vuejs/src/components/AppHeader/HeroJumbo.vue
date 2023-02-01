@@ -12,7 +12,7 @@ export default {
     <section id="hero-jumbo" class="d-flex ai-center">
         <div class="container">
             <action-call :label="data.jumbo_label" :title="data.jumbo_title" :paragraph="data.jumbo_paragraph"
-                :botton_label="data.jumbo_button"></action-call>
+                :button_label="data.jumbo_button"></action-call>
         </div>
     </section>
 </template>

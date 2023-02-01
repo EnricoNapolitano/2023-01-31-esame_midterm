@@ -1,7 +1,7 @@
 <script>
 export default {
     name: 'ActionCall',
-    props: { label: String, title: String, paragraph: String, botton_label: String }
+    props: { label: String, title: String, paragraph: String, button_label: String }
 }
 </script>
 
@@ -10,7 +10,7 @@ export default {
         <h4>{{ label }}</h4>
         <h2>{{ title }}</h2>
         <p>{{ paragraph }}</p>
-        <button>{{ botton_label }}</button>
+        <button>{{ button_label }}</button>
     </div>
 </template>
 
