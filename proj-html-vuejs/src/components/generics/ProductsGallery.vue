@@ -6,7 +6,7 @@ export default {
 </script>
 <template>
     <ul>
-        <li v-for="item in gallery"><img :src="item.src" :alt="item.title"></li>
+        <li v-for="item in gallery" :key="id"><img :src="item.src" :alt="item.title"></li>
     </ul>
 </template>
 
@@ -14,5 +14,10 @@ export default {
 ul {
     display: flex;
     justify-content: flex-end;
+}
+
+li {
+    padding: 0;
+    padding-left: 20px;
 }
 </style>

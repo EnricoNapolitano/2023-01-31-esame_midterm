@@ -17,7 +17,6 @@ export default {
 <style lang="scss" scoped>
 div {
     width: 530px;
-    padding: 30px;
 }
 
 h4,

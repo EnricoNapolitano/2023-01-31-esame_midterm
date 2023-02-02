@@ -33,6 +33,11 @@ export default {
         height: auto;
     }
 
+    li {
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
     img {
         max-width: 100%;
     }

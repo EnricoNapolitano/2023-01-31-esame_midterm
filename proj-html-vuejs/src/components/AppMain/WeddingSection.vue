@@ -13,7 +13,7 @@ export default {
             <action-call :label="data.event_label" :title="data.event_title"></action-call>
         </div>
         <ul class="d-flex jc-between">
-            <li v-for="img in data.event_img"><img :src="img.src" :alt="img.event"></li>
+            <li v-for="img in data.event_img" :key="img"><img :src="img.src" :alt="img.event"></li>
         </ul>
     </section>
 </template>
@@ -36,8 +36,13 @@ export default {
         @include center-align;
     }
 
+    ul {
+        margin: 0 -30px;
+    }
+
     li {
         margin: 0 30px;
+        padding: 0;
     }
 
     img {
