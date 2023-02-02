@@ -10,7 +10,7 @@ export default {
         <h4 v-if="label">{{ label }}</h4>
         <h2 v-if="title">{{ title }}</h2>
         <p v-if="paragraph">{{ paragraph }}</p>
-        <button v-if="button_label">{{ button_label }}</button>
+        <button v-if="button_label" class="btn">{{ button_label }}</button>
     </div>
 </template>
 
@@ -33,14 +33,5 @@ h2 {
 
 p {
     line-height: 30px;
-}
-
-button {
-    padding: 20px 30px;
-    background-color: $violet4;
-    color: white;
-    border: transparent;
-    border-radius: 5px;
-    font-weight: 600;
 }
 </style>
