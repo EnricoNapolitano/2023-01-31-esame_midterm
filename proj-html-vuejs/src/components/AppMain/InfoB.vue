@@ -10,8 +10,8 @@ export default {
 <template>
     <section id="info-b" class="container mv-section">
         <div class="col-left">
-            <articol-box :title="data.infoB_title" :num="data.infoB_num" :subtitle="data.infoB_subtitle"
-                :paragraph="data.infoB_paragraph"></articol-box>
+            <articol-box :title="data.infoB.title" :num="data.infoB.num" :subtitle="data.infoB.subtitle"
+                :paragraph="data.infoB.paragraph"></articol-box>
         </div>
         <div class="col-right">
             <h4>DON'T JUST TAKE OUR WORD FOR IT</h4>

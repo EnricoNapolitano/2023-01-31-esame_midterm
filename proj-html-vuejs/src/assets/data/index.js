@@ -90,10 +90,12 @@ const data = {
     },
 
     // info B section
-    infoB_title: 'We start baking',
-    infoB_num: '02',
-    infoB_subtitle: 'SWEET AND DELICOUS',
-    infoB_paragraph: 'Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.',
+    infoB: {
+        title: 'We start baking',
+        num: '02',
+        subtitle: 'SWEET AND DELICOUS',
+        paragraph: 'Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.',
+    },
 
     // info C section
     infoC_title: 'Delivered to your home',
