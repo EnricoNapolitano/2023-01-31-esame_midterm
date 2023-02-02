@@ -15,14 +15,14 @@ export default {
                 <img src=../../assets/img/social-1.jpg alt="social post">
             </figure>
             <div class="contact d-flex jc-center ai-center">
-                <action-call :label="data.social_label" :title="data.social_title"
-                    :button_label="data.social_button"></action-call>
+                <action-call :label="data.social.label" :title="data.social.title"
+                    :button_label="data.social.button"></action-call>
             </div>
             <figure>
                 <img src=../../assets/img/social-2.jpg alt="social post">
             </figure>
         </div>
-        <social-pictures :pictures="data.social_pictures"></social-pictures>
+        <social-pictures :pictures="data.social.pictures"></social-pictures>
     </section>
 </template>
 

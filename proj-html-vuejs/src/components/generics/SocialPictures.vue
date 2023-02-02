@@ -6,7 +6,7 @@ export default {
 </script>
 <template>
     <ul class="row d-flex jc-between">
-        <li v-for="pic in pictures"><img :src="pic" alt="social post"></li>
+        <li v-for="pic in pictures" :key="pic.id"><img :src="pic.img" alt="social post"></li>
     </ul>
 </template>
 

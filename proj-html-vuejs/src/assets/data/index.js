@@ -123,13 +123,31 @@ const data = {
         },
     ],
 
-    // social call to action
-    social_label: 'MADE FOR SHARING',
-    social_title: 'Let\' stay in touch',
-    social_button: 'Follow us',
+    // social call to action & social post
+    social: {
+        label: 'MADE FOR SHARING',
+        title: 'Let\' stay in touch',
+        button: 'Follow us',
+        pictures: [
+            {
+                id: '3',
+                img: '/src/assets/img/social-3.jpg',
+            },
+            {
+                id: '4',
+                img: '/src/assets/img/social-4.jpg',
+            },
+            {
+                id: '5',
+                img: '/src/assets/img/social-5.jpg',
+            },
+            {
+                id: '6',
+                img: '/src/assets/img/social-6.jpg',
+            }
+        ]
+    },
 
-    //social pictures
-    social_pictures: ['/src/assets/img/social-3.jpg', '/src/assets/img/social-4.jpg', '/src/assets/img/social-5.jpg', '/src/assets/img/social-6.jpg'],
 
     //delivery section
     delivery_label: 'TRY OUR SEASONAL PRODUCTS',
