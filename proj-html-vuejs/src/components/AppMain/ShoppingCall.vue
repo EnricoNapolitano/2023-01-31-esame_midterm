@@ -11,8 +11,8 @@ export default {
 <template>
     <section id="shopping-call" class="container d-flex jc-between ai-center mv-section">
         <div>
-            <action-call :title="data.shopping_title" :paragraph="data.shopping_paragraph"
-                :button_label="data.shopping_button"></action-call>
+            <action-call :title="data.shopping.title" :paragraph="data.shopping.paragraph"
+                :button_label="data.shopping.button"></action-call>
         </div>
         <products-gallery :gallery="data.gallery.slice(0, 4)"></products-gallery>
     </section>

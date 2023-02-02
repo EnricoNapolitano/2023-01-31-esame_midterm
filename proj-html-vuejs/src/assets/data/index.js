@@ -74,22 +74,13 @@ const data = {
         ],
     },
 
-    event_label: 'CORPORATE & WEDDINGS',
-    event_title: 'Baking Special Moments',
-    event_img: [
-        {
-            event: 'corporate',
-            src: '/src/assets/img/corporate-bg.jpg',
-            hover: '/src/assets/img/corporate-hover-bg.jpg'
-        },
-        {
-            event: 'wedding',
-            src: '/src/assets/img/wedding-bg.jpg',
-            hover: '/src/assets/img/wedding-hover-bg.jpg'
-        },
-    ],
-
     //Shopping Call section
+    shopping: {
+        title: 'Find a freshly baked product perfect for you',
+        paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
+        button: 'Shop All Products',
+    },
+
     shopping_title: 'Find a freshly baked product perfect for you',
     shopping_paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
     shopping_button: 'Shop All Products',
