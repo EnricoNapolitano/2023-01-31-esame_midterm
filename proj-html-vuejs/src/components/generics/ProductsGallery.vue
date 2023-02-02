@@ -6,7 +6,7 @@ export default {
 </script>
 <template>
     <ul>
-        <li v-for="item in gallery" :key="id"><img :src="item.src" :alt="item.title"></li>
+        <li v-for="item in gallery" :key="item.id"><img :src="item.src" :alt="item.title"></li>
     </ul>
 </template>
 
