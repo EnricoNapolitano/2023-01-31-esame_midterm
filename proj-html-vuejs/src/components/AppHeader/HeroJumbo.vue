@@ -10,7 +10,7 @@ export default {
 
 <template>
     <section id="hero-jumbo" class="d-flex ai-center">
-        <div class="container">
+        <div class="hero-call">
             <action-call :label="data.jumbo_label" :title="data.jumbo_title" :paragraph="data.jumbo_paragraph"
                 :button_label="data.jumbo_button"></action-call>
         </div>
@@ -25,6 +25,10 @@ export default {
     width: auto;
     background-image: url('../../assets/img/hero-header-bakery.jpg');
     @include bg-image;
+
+    .hero-call {
+        margin: 0 120px;
+    }
 
     h2 {
         font-size: 55px;
