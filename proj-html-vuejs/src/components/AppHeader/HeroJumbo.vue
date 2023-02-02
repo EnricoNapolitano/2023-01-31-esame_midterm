@@ -11,8 +11,8 @@ export default {
 <template>
     <section id="hero-jumbo" class="d-flex ai-center">
         <div class="hero-call">
-            <action-call :label="data.jumbo_label" :title="data.jumbo_title" :paragraph="data.jumbo_paragraph"
-                :button_label="data.jumbo_button"></action-call>
+            <action-call :label="data.jumbo.label" :title="data.jumbo.title" :paragraph="data.jumbo.paragraph"
+                :button_label="data.jumbo.button"></action-call>
         </div>
     </section>
 </template>
