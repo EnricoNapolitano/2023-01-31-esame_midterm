@@ -2,18 +2,18 @@
 import { data } from '../../assets/data';
 import ActionCall from '../generics/ActionCall.vue';
 export default {
-    name: 'WeddingSection',
+    name: 'EventSection',
     data() { return { data } },
     components: { ActionCall },
 }
 </script>
 <template>
-    <section id="wedding-section" class="container mv-section">
+    <section id="event-section" class="container mv-section">
         <div>
-            <action-call :label="data.event_label" :title="data.event_title"></action-call>
+            <action-call :label="data.event.label" :title="data.event.title"></action-call>
         </div>
         <ul class="d-flex jc-between">
-            <li v-for="img in data.event_img" :key="img"><img :src="img.src" :alt="img.event"></li>
+            <li v-for="img in data.event.img" :key="img.event"><img :src="img.src" :alt="img.event"></li>
         </ul>
     </section>
 </template>
@@ -21,7 +21,7 @@ export default {
 <style lang="scss">
 @use '../../assets/scss/partials/mixins' as*;
 
-#wedding-section {
+#event-section {
     h4 {
         font-size: 0.8rem;
         padding-bottom: 25px;

@@ -56,7 +56,24 @@ const data = {
         },
     ],
 
-    //wedding section
+    //event section
+    event: {
+        label: 'CORPORATE & WEDDINGS',
+        title: 'Baking Special Moments',
+        img: [
+            {
+                event: 'corporate',
+                src: '/src/assets/img/corporate-bg.jpg',
+                hover: '/src/assets/img/corporate-hover-bg.jpg'
+            },
+            {
+                event: 'wedding',
+                src: '/src/assets/img/wedding-bg.jpg',
+                hover: '/src/assets/img/wedding-hover-bg.jpg'
+            },
+        ],
+    },
+
     event_label: 'CORPORATE & WEDDINGS',
     event_title: 'Baking Special Moments',
     event_img: [

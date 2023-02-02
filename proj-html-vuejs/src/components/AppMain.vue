@@ -1,6 +1,6 @@
 <script>
 import ProductsSection from './AppMain/ProductsSection.vue';
-import WeddingSection from './AppMain/WeddingSection.vue';
+import EventSection from './AppMain/EventSection.vue';
 import ShoppingCall from './AppMain/ShoppingCall.vue';
 import InfoA from './AppMain/InfoA.vue';
 import InfoB from './AppMain/InfoB.vue';
@@ -10,12 +10,12 @@ import BakeryLocation from './AppMain/BakeryLocation.vue';
 import DeliverySection from './AppMain/DeliveySection.vue';
 export default {
     name: 'AppMain',
-    components: { ProductsSection, WeddingSection, ShoppingCall, InfoA, InfoB, InfoC, ContactBakery, BakeryLocation, DeliverySection },
+    components: { ProductsSection, EventSection, ShoppingCall, InfoA, InfoB, InfoC, ContactBakery, BakeryLocation, DeliverySection },
 }
 </script>
 <template>
     <products-section></products-section>
-    <wedding-section></wedding-section>
+    <event-section></event-section>
     <shopping-call></shopping-call>
     <info-a></info-a>
     <info-b></info-b>
