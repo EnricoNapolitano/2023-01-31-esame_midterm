@@ -11,10 +11,10 @@ export default {
 <template>
     <section id="bakery-location" class="container">
         <div class="title d-flex jc-center">
-            <action-call :label="data.location_label" :title="data.location_title"></action-call>
+            <action-call :label="data.location.label" :title="data.location.title"></action-call>
         </div>
         <ul class="d-flex">
-            <li v-for="pic in data.store_pictures"><img :src="pic" alt="store picture"></li>
+            <li v-for="pic in data.store" :key="pic.id"><img :src="pic.img" alt="store picture"></li>
         </ul>
         <div class="row d-flex">
             <div class="location a">

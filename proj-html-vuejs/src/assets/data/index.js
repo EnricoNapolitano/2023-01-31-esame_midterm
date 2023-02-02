@@ -106,11 +106,22 @@ const data = {
     },
 
     // bakery location
-    location_label: 'LOCATIONS',
-    location_title: 'Visit Our Bakeries',
+    location: {
+        label: 'LOCATIONS',
+        title: 'Visit Our Bakeries',
+    },
 
     // store pictures
-    store_pictures: ['/src/assets/img/new-york-bk.jpg', '/src/assets/img/london-bk.jpg'],
+    store: [
+        {
+            id: '1',
+            img: '/src/assets/img/new-york-bk.jpg',
+        },
+        {
+            id: '2',
+            img: '/src/assets/img/london-bk.jpg',
+        },
+    ],
 
     // social call to action
     social_label: 'MADE FOR SHARING',
