@@ -9,7 +9,7 @@ export default {
 </script>
 <template>
     <section id="delivery" class="d-flex ai-center">
-        <action-call :label="data.delivery_label" :title="data.delivery_title" :button_label="data.delivery_button"
+        <action-call :label="data.delivery.label" :title="data.delivery.title" :button_label="data.delivery.button"
             class="ml-450"></action-call>
     </section>
 </template>

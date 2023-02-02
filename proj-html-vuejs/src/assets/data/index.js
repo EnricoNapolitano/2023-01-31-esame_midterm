@@ -148,11 +148,12 @@ const data = {
         ]
     },
 
-
     //delivery section
-    delivery_label: 'TRY OUR SEASONAL PRODUCTS',
-    delivery_title: 'Order for pick-up or delivery to your home',
-    delivery_button: 'Shop now',
+    delivery: {
+        label: 'TRY OUR SEASONAL PRODUCTS',
+        title: 'Order for pick-up or delivery to your home',
+        button: 'Shop now',
+    },
 
     //bottom footer: social icons
     socials: ['fa-brands fa-instagram', 'fa-brands fa-twitter', 'fa-brands fa-facebook-f', 'fa-brands fa-pinterest-p'],
