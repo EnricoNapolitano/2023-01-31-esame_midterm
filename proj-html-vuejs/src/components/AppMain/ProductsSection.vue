@@ -10,8 +10,8 @@ export default {
 </script>
 <template>
     <section id="products-gallery" class="container d-flex jc-between ai-center mv-section">
-        <action-call :label="data.products_label" :title="data.products_title"
-            :button_label="data.products_button"></action-call>
+        <action-call :label="data.products.label" :title="data.products.title"
+            :button_label="data.products.button"></action-call>
         <products-gallery :gallery="data.gallery.slice(0, 2)"></products-gallery>
     </section>
 </template>

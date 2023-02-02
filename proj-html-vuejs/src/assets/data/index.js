@@ -11,9 +11,11 @@ const data = {
     },
 
     //products section
-    products_label: 'OUR PRODUCTS',
-    products_title: 'All our delectable pastries are baked fresh in our Kitchen very morning, and are made with all natural, all organic, ingredients.',
-    products_button: 'Start shopping',
+    products: {
+        label: 'OUR PRODUCTS',
+        title: 'All our delectable pastries are baked fresh in our Kitchen very morning, and are made with all natural, all organic, ingredients.',
+        button: 'Start shopping',
+    },
 
     //products gallery
     gallery: [
