@@ -81,15 +81,13 @@ const data = {
         button: 'Shop All Products',
     },
 
-    shopping_title: 'Find a freshly baked product perfect for you',
-    shopping_paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
-    shopping_button: 'Shop All Products',
-
     // info A section
-    infoA_title: 'Tell us what you have in mind',
-    infoA_num: '01',
-    infoA_subtitle: 'MANUAL INGREDIENTS SELECTION',
-    infoA_paragraph: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatu deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, imilique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.',
+    infoA: {
+        title: 'Tell us what you have in mind',
+        num: '01',
+        subtitle: 'MANUAL INGREDIENTS SELECTION',
+        paragraph: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatu deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, imilique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.',
+    },
 
     // info B section
     infoB_title: 'We start baking',

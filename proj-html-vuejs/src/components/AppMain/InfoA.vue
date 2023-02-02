@@ -9,8 +9,8 @@ export default {
 </script>
 <template>
     <section id="info-a" class="container mv-section">
-        <articol-box :title="data.infoA_title" :num="data.infoA_num" :subtitle="data.infoA_subtitle"
-            :paragraph="data.infoA_paragraph"></articol-box>
+        <articol-box :title="data.infoA.title" :num="data.infoA.num" :subtitle="data.infoA.subtitle"
+            :paragraph="data.infoA.paragraph"></articol-box>
     </section>
 </template>
 
