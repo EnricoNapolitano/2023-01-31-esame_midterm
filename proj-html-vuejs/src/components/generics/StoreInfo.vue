@@ -15,7 +15,7 @@ export default {
             <h4>OPEN ALL WEEK</h4>
             <div>9.00 AM - 6.00 PM</div>
         </div>
-        <button>View Map</button>
+        <button class="btn white-btn">View Map</button>
     </div>
 </template>
 
@@ -28,9 +28,5 @@ h2 {
 
 h4 {
     padding-bottom: 18px;
-}
-
-button {
-    padding: 15px 20px;
 }
 </style>
