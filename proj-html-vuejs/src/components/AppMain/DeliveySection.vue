@@ -29,5 +29,9 @@ export default {
     h2 {
         font-size: 2rem;
     }
+
+    button {
+        @include white-btn;
+    }
 }
 </style>

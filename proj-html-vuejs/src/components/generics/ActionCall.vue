@@ -15,6 +15,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partials/variables' as*;
+
 div {
     width: 530px;
 }
@@ -35,6 +37,10 @@ p {
 
 button {
     padding: 20px 30px;
+    background-color: $violet4;
+    color: white;
+    border: transparent;
     border-radius: 5px;
+    font-weight: 600;
 }
 </style>

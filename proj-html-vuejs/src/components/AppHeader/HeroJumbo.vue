@@ -33,5 +33,9 @@ export default {
     h2 {
         font-size: 55px;
     }
+
+    button {
+        @include white-btn;
+    }
 }
 </style>
