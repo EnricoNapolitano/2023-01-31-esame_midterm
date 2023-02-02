@@ -156,7 +156,28 @@ const data = {
     },
 
     //bottom footer: social icons
-    socials: ['fa-brands fa-instagram', 'fa-brands fa-twitter', 'fa-brands fa-facebook-f', 'fa-brands fa-pinterest-p'],
+    socials: [
+        {
+            id: 'ig',
+            name: 'instagram',
+            class: 'fa-brands fa-instagram',
+        },
+        {
+            id: 'tw',
+            name: 'twitter',
+            class: 'fa-brands fa-twitter',
+        },
+        {
+            id: 'fb',
+            name: 'facebook',
+            class: 'fa-brands fa-facebook-f',
+        },
+        {
+            id: 'pin',
+            name: 'pinterest',
+            class: 'fa-brands fa-pinterest-p',
+        },
+    ],
 }
 
 export { data }
