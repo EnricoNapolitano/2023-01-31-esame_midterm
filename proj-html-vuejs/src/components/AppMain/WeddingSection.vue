@@ -22,6 +22,15 @@ export default {
 @use '../../assets/scss/partials/mixins' as*;
 
 #wedding-section {
+    h4 {
+        font-size: 0.8rem;
+        padding-bottom: 25px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
     div {
         text-align: center;
         @include center-align;
